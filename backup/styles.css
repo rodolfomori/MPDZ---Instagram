@@ -18,11 +18,11 @@ body {
     margin-bottom: 20px;
 }
 
-.container-imagens {
+.caixa-imagens {
     position: relative;
 }
 
-.img-celular {
+.fundo-celular {
     width: 450px;
 }
 
@@ -34,17 +34,13 @@ body {
     transition: opacity 2s ease-in-out;
 }
 
-.container-itens {
+.caixa-form {
     width: 350px;
-}
-
-.container-form {
     display: flex;
     flex-direction: column;
     border: 1px solid #dbdbdb;
     background: #ffffff;
     padding: 50px 40px 20px 40px;
-    max-width: 300px;
 }
 
 input {
@@ -55,8 +51,6 @@ input {
     padding-left: 5px;
     margin-top: 5px;
     color: #262626;
-    font-size: 12px;
-    background-color: #FAFAFA;
 }
 
 button {
@@ -84,4 +78,44 @@ button {
     text-align: center;
     cursor: pointer;
     font-size: 12px;
+}
+
+/*  Se der TEMPO */
+
+.caixa-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.paragrafo-conta {
+    font-size: 14px;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caixa-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-app {
+    width: 150px;
 }
